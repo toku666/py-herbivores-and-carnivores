@@ -9,7 +9,7 @@ class Animal:
 
     def __repr__(self) -> str:
         return (f"{{Name: {self.name}, "
-                f" Health: {self.health}, Hidden: {self.hidden}}}")
+                f"Health: {self.health}, Hidden: {self.hidden}}}")
 
     def check_alive(self) -> None:
         if self.health <= 0 and self in Animal.alive:
